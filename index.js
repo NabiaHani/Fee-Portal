@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 connectToDatabase();
 
 // Port
-const Port = process.env.Port || 9001;
+const Port = process.env.Port || 9000;
 
 // run listening
 app.listen(Port, () => {
